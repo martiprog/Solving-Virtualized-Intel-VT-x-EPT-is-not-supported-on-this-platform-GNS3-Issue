@@ -49,6 +49,7 @@ Windows-version-specific steps, that will most likely solve the issue.
 
    
 4. Then follow this article: **Disable Virtualization based security*** (https://simpleoracle.com/2024/10/09/how-to-disable-windows-virtualization-device-based-security-vbs/). Try all the steps in the article. the first steps are the old methods and the next steps are the new method. IMPORTANT: When using the Microsoft tool from the article, you can't disable Virt. Based Security, Device Guard, Credential Guard if the Secure Boot option in BIOS is disabled! Play with that setting and it may work.
+   ## It is suggested that you enable Virtualization Based Security in BIOS, than reboot, than run the DG Readiness tool than reboot again and in BIOS disable Virtualization Based Security, then the tool runs and it will likely succeed in disabling that feature.
 
 **I have copied the article in my repo so you can access-it even if it is not available anymore for some reason.**
 
